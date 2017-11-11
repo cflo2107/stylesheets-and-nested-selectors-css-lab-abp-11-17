@@ -8,10 +8,17 @@ body {
 header
 {
   font-height: 100px;
-  border-bottom-style: solid
-  border-bottom-width: 1px
-  border-bottom-color: #cccccc
+  border-bottom: 1px solid #cccccc
+  
 }
-nav{
+header nav{
   float: right
+}
+nav ul {
+  padding: 0
+  margin: 40px 0 0 0
+}
+nav ul li {
+  display: inline
+  
 }
